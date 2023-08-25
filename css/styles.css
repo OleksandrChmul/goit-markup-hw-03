@@ -1,0 +1,157 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Style header */
+
+.top-line .logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.top-line .logo-link .logo-studio {
+  color: #2e2f42;
+}
+
+.navigation a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.navigation .navigation-link:hover,
+.navigation .navigation-link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts .contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+  color: #404bbf;
+}
+
+/* Hero-section */
+
+.hero-section {
+  background-color: #2e2f42;
+}
+.hero-section .hero-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-section .button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-section .button:hover,
+.hero-section .button:focus {
+  background-color: #404bbf;
+}
+
+/* Feature-section */
+
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Our Team */
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.list-item {
+  background-color: #ffffff;
+}
+.our-team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* Portfolio */
+
+.portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer .logo-link .logo-studio {
+  color: #f4f4fd;
+}
+
+.footer .list-text {
+  color: #f4f4fd;
+}
