@@ -153,6 +153,19 @@ a {
 
 /* Feature-section */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .feature {
   padding: 120px 0;
 }
@@ -218,18 +231,51 @@ a {
 /* Portfolio */
 
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /* Footer */
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.container .logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.container .list-text {
+  max-width: 264px;
 }
 
 .footer .logo-link {
