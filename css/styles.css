@@ -46,7 +46,9 @@ a {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
 }
-
+.navigation-list .navigation-link {
+  padding: 24px 0 24px;
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -70,10 +72,12 @@ a {
 .navigation-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
-.contacts-link {
-  padding: 24px 0;
+.navigation-list .contacts-link {
+  padding: 24px 0 24px;
+  display: block;
 }
 
 .navigation-list a {
